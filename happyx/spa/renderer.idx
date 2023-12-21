@@ -1,0 +1,38 @@
+AppEventHandler	happyx/spa/renderer.html#AppEventHandler	renderer: AppEventHandler	
+ComponentEventHandler	happyx/spa/renderer.html#ComponentEventHandler	renderer: ComponentEventHandler	
+App	happyx/spa/renderer.html#App	renderer: App	
+BaseComponent	happyx/spa/renderer.html#BaseComponent	renderer: BaseComponent	
+BaseComponentObj	happyx/spa/renderer.html#BaseComponentObj	renderer: BaseComponentObj	
+application	happyx/spa/renderer.html#application	renderer: application	
+eventHandlers	happyx/spa/renderer.html#eventHandlers	renderer: eventHandlers	
+componentEventHandlers	happyx/spa/renderer.html#componentEventHandlers	renderer: componentEventHandlers	
+currentComponent	happyx/spa/renderer.html#currentComponent	renderer: currentComponent	
+currentRoute	happyx/spa/renderer.html#currentRoute	renderer: currentRoute	
+currentComponentsList	happyx/spa/renderer.html#currentComponentsList	renderer: currentComponentsList	
+createdComponentsList	happyx/spa/renderer.html#createdComponentsList	renderer: createdComponentsList	
+components	happyx/spa/renderer.html#components	renderer: components	
+requestResult	happyx/spa/renderer.html#requestResult	renderer: requestResult	
+componentsResult	happyx/spa/renderer.html#componentsResult	renderer: componentsResult	
+elem	happyx/spa/renderer.html#elem.m,untyped	renderer: elem(name: untyped): untyped	
+route	happyx/spa/renderer.html#route,string,string	renderer: route(host, path: string)	
+injectJs	happyx/spa/renderer.html#injectJs,string,string	renderer: injectJs(host, script: string)	
+html	happyx/spa/renderer.html#html,string,string	renderer: html(host, data: string)	
+route	happyx/spa/renderer.html#route,BaseComponent,string	renderer: route(comp: BaseComponent; path: string)	
+js	happyx/spa/renderer.html#js,BaseComponent,string	renderer: js(comp: BaseComponent; script: string)	
+html	happyx/spa/renderer.html#html,BaseComponent,string	renderer: html(comp: BaseComponent; data: string)	
+registerApp	happyx/spa/renderer.html#registerApp,cstring	renderer: registerApp(appId: cstring = &quot;app&quot;): App	
+registerComponent	happyx/spa/renderer.html#registerComponent,string,BaseComponent	renderer: registerComponent(name: string; component: BaseComponent): BaseComponent	
+renderVdom	happyx/spa/renderer.html#renderVdom,App,TagRef,bool	renderer: renderVdom(app: App; tag: TagRef; force: bool = false)	
+render	happyx/spa/renderer.html#render.e,BaseComponent	renderer: render(self: BaseComponent): TagRef	
+reRender	happyx/spa/renderer.html#reRender.e,BaseComponent	renderer: reRender(self: BaseComponent)	
+start	happyx/spa/renderer.html#start.t,App	renderer: start(app: App)	
+buildHtml	happyx/spa/renderer.html#buildHtml.m,untyped,untyped	renderer: buildHtml(root, html: untyped): untyped	
+buildHtml	happyx/spa/renderer.html#buildHtml.m,untyped	renderer: buildHtml(html: untyped): untyped	
+buildComponentHtml	happyx/spa/renderer.html#buildComponentHtml.m,untyped,untyped	renderer: buildComponentHtml(componentName, html: untyped): untyped	
+routes	happyx/spa/renderer.html#routes.m,App,untyped	renderer: routes(app: App; body: untyped): untyped	
+appRoutes	happyx/spa/renderer.html#appRoutes.m,string,untyped	renderer: appRoutes(name: string; body: untyped): untyped	
+Basic Usage:	happyx/spa/renderer.html#basic-usagecolon	  Basic Usage:	
+Usage:	happyx/spa/renderer.html#usagecolon	  Usage:	
+Renderer ✨	happyx/spa/renderer.html#renderer-✨	 Renderer ✨	
+Moving Between Routes 🎈	happyx/spa/renderer.html#renderer-✨-moving-between-routes-🎈	  Moving Between Routes 🎈	
+Usage 🔨	happyx/spa/renderer.html#renderer-✨-usage-🔨	  Usage 🔨	

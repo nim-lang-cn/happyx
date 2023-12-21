@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="HappyX the macro-oriented full-stack web framework">
+    <meta name="keywords" content="web framework, web, programming, restapi, rest, nim, happyx, api, frontend, backend, fullstack, macro-oriented, nodejs, python, server-side, client-side">
+    <meta property="og:title" content="HappyX Web Framework">
+    <meta
+      property="og:description"
+      content="HappyX the macro-oriented full-stack web framework"
+    >
+    <meta property="og:image" content="https://hapticx.github.io/happyx/public/icon.png">
+    <meta property="og:url" content="https://hapticx.github.io/happyx/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/nim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/python.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/http.min.js" async></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/languages/shell.min.js" async></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css">
+    <title>HappyX Web Framework</title>
+    <link rel="icon" href="public/icon.png">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&display=swap');
+      :root {  
+        font-family: 'Fira Code';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smooth: grayscale;
+        text-rendering: optimizeLegibility;
+        image-rendering: pixelated;
+      }
+      b {
+        font-weight: bold !important;
+      }
+      @media (min-width: 1281px) {
+        h1 {
+          font-size: 2.25rem !important;
+          line-height: 5rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h2 {
+          font-size: 1.875rem !important;
+          line-height: 3rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h3 {
+          font-size: 1.5rem !important;
+          line-height: 2.5rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h4 {
+          font-size: 1.25rem !important;
+          line-height: 1.875rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h5 {
+          font-size: 1rem !important;
+          line-height: 1.5rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+      }
+      @media (min-width: 641px) and (max-width: 1280px) {
+        h1 {
+          font-size: 2.75rem !important;
+          line-height: 3rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h2 {
+          font-size: 2.5rem !important;
+          line-height: 2.5rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h3 {
+          font-size: 2rem !important;
+          line-height: 2.25rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h4 {
+          font-size: 1.5rem !important;
+          line-height: 2rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h5 {
+          font-size: 1.25rem !important;
+          line-height: 1.75rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+      }
+      @media (max-width: 640px) {
+        h1 {
+          font-size: 5rem !important;
+          line-height: 8rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h2 {
+          font-size: 4.5rem !important;
+          line-height: 7rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h3 {
+          font-size: 4rem !important;
+          line-height: 6rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h4 {
+          font-size: 3.5rem !important;
+          line-height: 5rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+        h5 {
+          font-size: 3.25rem !important;
+          line-height: 3rem !important; /* 40px */
+          font-weight: bold !important;
+        }
+      }
+      :not(pre) > code {
+        border-radius: .5rem;
+        padding: .2rem .6rem;
+        background: #ffffff20
+      }
+      table {
+        width: fit-content;
+        padding: .1rem;
+      }
+      @media (prefers-color-scheme: dark) {
+        ::-webkit-scrollbar {
+          width: .8rem;
+        }
+        ::-webkit-scrollbar-track {
+          background: #181326cc;
+        }
+        ::-webkit-scrollbar-thumb {
+          background-color: #1c172ace;
+          border-radius: 2rem;
+        }
+      }
+      @media (prefers-color-scheme: light) {
+        ::-webkit-scrollbar {
+          width: .8rem;
+        }
+        ::-webkit-scrollbar-track {
+          background: #1c172a30;
+        }
+        ::-webkit-scrollbar-thumb {
+          background-color: #1c172a40;
+          border-radius: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script src="main.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+  </body>
+</html>
